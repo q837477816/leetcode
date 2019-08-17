@@ -15,7 +15,6 @@ export default (str) => {
         } else {
             return ''
         }
-
     }
     for (let i = 0, len = str.length - 1; i < len; i++) {
         let sub = match(str.slice(i))
